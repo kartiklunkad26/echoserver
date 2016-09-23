@@ -1,0 +1,4 @@
+---
+applications: 
+- name: EchoServer
+  path: "target/io.pivotal.echoserver-0.0.1-SNAPSHOT.jar"
