@@ -55,14 +55,7 @@ public class App {
         }
  
         public static void main(String[] args) throws Exception {
-                //Map<String, String> argsMap = getArguments(args);
-                //String portValue = argsMap.get("-" + ConsoleArguments.port.toString());
-                //String ipaddressValue = argsMap.get("-" + ConsoleArguments.ipaddress.toString());
- 
-                //if (portValue != null) {
+               
                    App app = new App("localhost", Integer.parseInt("8080"));
-                //} else {
-                        //getHelp();
-                //}
         }
 }
